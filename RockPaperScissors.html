@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors in Console</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2 class="main-title">Rock Paper Scissors</h2>
+    <hr>
+    <h4>First to 5 Points wins!</h4>
+    <div id="play-field">
+        <div class="main-area">
+            <div class="user-buttons">
+                <h4 class="subtitle">Make Your Selection</h4>
+                <button id="rock-btn">Rock</button>
+                <button id="paper-btn">Paper</button>
+                <button id="scissors-btn">Scissors</button>
+            </div>
+            <p id="user-selection">You Selected: </p>
+            <p id="computer-selection">Computer Selected: </p>
+            <button id="play-round-btn">Play Round</button>
+            <p id="round-result"></p>
+            <div class="score-area">
+                <label for="player-score-input">Player Score:</label>
+                <input id="player-score-input" type="text" readonly>
+                <label for="comp-score-input">Computer Score:</label>
+                <input id="comp-score-input" type="text" readonly>
+            </div>
+            <button id="clear-scores">Clear Scores</button>
+            <div id="game-over" hidden>
+                <h2 id="game-over-text"></h2>
+                <button id="play-again-button">Play Again</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="RPSHtml.js"></script>
+</body>
+
+</html>

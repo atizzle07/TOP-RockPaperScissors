@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+    min-width: 60%;
+}
+
+h2,h4,hr {
+    margin-bottom: 5px;
+}
+
+button {
+    font-weight: bold;
+    padding: 7px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+}
+
+button:disabled {
+    font-weight: bold;
+    padding: 7px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 139, 0.199);
+    color: white;
+}
+
+#rock-btn #paper-btn #scissors-btn {
+    max-width: 50px;
+}
+
+#play-field {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-area {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgba(84, 138, 255, 0.5);
+}
+
+input {
+    max-width: 50px;
+    margin-left: 10px;
+    justify-self: center;
+    background-color: #bdbdbd;
+    text-shadow: none;
+}
+
+.score-area {
+    display: grid;
+    justify-items: right;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+
+.subtitle {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.user-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#user-selection,#computer-selection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* #play-round-btn:disabled{
+    background-color: color-mix(in srgb, var(--primary-color), gray 20%);
+} */
+
+#clear-scores{
+    margin-top: 10px;
+}
+
+#clear-scores:disabled{
+    margin-top: 10px;
+    background-color: color-mix(in srgb, var(--primary-color), gray 20%);
+
+}
+
+#game-over{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(65, 151, 80);
+}
+
+#game-over-text{
+    justify-content: center;
+    color: yellow;
+    margin-bottom: 10px;
+}
