@@ -25,6 +25,7 @@ rockSelectButton.addEventListener('click', () => {
     playerChoice = 'Rock'
     userSelection.textContent = `You Selected: ${playerChoice}`;
     playRoundButton.disabled = false;
+    gameOverDiv.hidden = true;
 })
 
 paperSelectButton.addEventListener('click', () => {
@@ -32,7 +33,7 @@ paperSelectButton.addEventListener('click', () => {
     playerChoice = 'Paper'
     userSelection.textContent = `You Selected: ${playerChoice}`;
     playRoundButton.disabled = false;
-
+    gameOverDiv.hidden = true;
 })
 
 scissorSelectButton.addEventListener('click', () => {
@@ -40,7 +41,7 @@ scissorSelectButton.addEventListener('click', () => {
     playerChoice = 'Scissors'
     userSelection.textContent = `You Selected: ${playerChoice}`;
     playRoundButton.disabled = false;
-
+    gameOverDiv.hidden = true;
 })
 
 playRoundButton.addEventListener('click', () => {
