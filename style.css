@@ -22,7 +22,7 @@ button {
     padding: 7px;
     border: 3px solid gray;
     border-radius: 5px;
-    background-color: darkblue;
+    background-color: rgb(104, 170, 42);
     color: white;
 }
 
@@ -50,7 +50,7 @@ button:disabled {
     border: 1px solid white;
     border-radius: 10px;
     padding: 20px;
-    background-color: rgba(84, 138, 255, 0.5);
+    background-color: rgba(162, 68, 238, 0.5);
 }
 
 input {
