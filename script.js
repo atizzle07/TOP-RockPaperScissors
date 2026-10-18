@@ -154,7 +154,7 @@ function GetRoundResult(user, comp) {
 }
 
 function ResetGame() {
-
+    gameOverLabel.setAttribute('hidden','true')
     userSelection.textContent = `You Selected:`;
     compSelection.textContent = `Computer Selected:`;
     playerScore = 0;

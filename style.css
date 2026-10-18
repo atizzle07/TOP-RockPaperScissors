@@ -49,7 +49,7 @@ button:disabled {
     flex-direction: column;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 50px;
+    padding: 20px;
     background-color: rgba(84, 138, 255, 0.5);
 }
 
@@ -85,10 +85,6 @@ input {
     margin-bottom: 10px;
 }
 
-/* #play-round-btn:disabled{
-    background-color: color-mix(in srgb, var(--primary-color), gray 20%);
-} */
-
 #clear-scores{
     margin-top: 10px;
 }
@@ -105,6 +101,7 @@ input {
     align-items: center;
     margin-top: 10px;
     background-color: rgb(65, 151, 80);
+    padding: 0 5px;
 }
 
 #game-over-text{
